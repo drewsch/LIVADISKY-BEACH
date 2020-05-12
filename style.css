@@ -1,0 +1,99 @@
+body {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  background-color: #f7f7f7;
+  height: 170px;
+}
+
+.navigation_link {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.mail {
+  font: 400 16px/32px Georgia;
+  color: #3b2827;
+  margin-left: 67px;
+}
+
+.nomer:hover,
+.mail:hover {
+  color: #b3b3b3;
+}
+
+.nomer {
+  font: 400 16px/32px Georgia;
+  color: #3b2827;
+  margin-left: 67px;
+}
+
+.logo {
+  width: 5%;
+  margin-top: 10px;
+  margin-left: 70px;
+  padding-right: 15px;
+  float: left;
+}
+
+.main_menu,
+.history_menu,
+.services_menu,
+.schedule_menu,
+.search_menu {
+  font: 300 16px Georgia;
+  color: #3b2827;
+  padding: 10px;
+  line-height: 1;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
+.right_menu a:after {
+  background-color: #3b2827;
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  -webkit-transition: width .3s ease-in-out;
+  -moz--transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+}
+
+.right_menu a:hover:after,
+.right_menu a:focus:after {
+  width: 100%;
+}
+
+.line_header {
+  width: 100%;
+
+}
+
+hr {
+  background-color: #3b2827;
+  width: 90%;
+  height: 1px;
+  margin: 0 5% 0 5%;
+}
+
+.left_block_header {
+  float: left;
+  margin-top: 20px;
+}
+
+.right_menu {
+  float: right;
+  margin-right: 60px;
+  margin-top: -50px;
+}
+
+.company_name {
+  margin-top: 20px;
+  font: 600 19px Georgia;
+  color: #3b2827;
+  cursor: default;
+}
