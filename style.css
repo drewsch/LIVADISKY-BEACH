@@ -9,6 +9,7 @@ header {
 }
 
 .navigation_link {
+  width: 50%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -33,7 +34,7 @@ header {
 .logo {
   width: 5%;
   margin-top: 10px;
-  margin-left: 70px;
+  margin-left: 5%;
   padding-right: 15px;
   float: left;
 }
@@ -92,8 +93,9 @@ hr {
 }
 
 .company_name {
+  width: 40%;
   margin-top: 20px;
-  font: 600 19px Georgia;
+  font: 600 19px Open Sans;
   color: #3b2827;
   cursor: default;
 }
@@ -135,10 +137,30 @@ h1 {
   max-width: 100%;
 }
 
-.history_text {
+.history_topic {
+  width: 60%;
   padding-top: 50px;
+  margin-left: 15%;
 }
+
 h2 {
-   color: #DBC8BE;
-   font: 300 40px Georgia;
+  color: #DBC8BE;
+  font: 400 40px Open Sans;
+}
+
+.subtitles_topic {
+  padding-top: 30px;
+  color: #1E2025;
+  font: 400 18px Open Sans;
+}
+
+.block_main_content_text {
+
+  padding-top: 20px;
+  color: #1E2025;
+  font: 400 15px Open Sans;
+}
+
+.main_content_text {
+  line-height: 2;
 }
